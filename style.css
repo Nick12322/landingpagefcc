@@ -19,3 +19,22 @@ h1 {
 #header {
   margin-top: 66px;
 }
+
+#form {
+  margin-left: 25px;
+}
+
+#formtext {
+  margin-left: 18px;
+}
+
+#flexbox {
+  display: flex;
+  flex-direction: row;
+}
+
+.stepbox {
+  background-color: lightgray;
+  border-color: white;
+  width: 33%;
+}

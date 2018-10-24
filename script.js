@@ -3,3 +3,4 @@ $("#featureButton").click(function() {
         scrollTop: $(".feature").offset().top},
         'slow');
 });
+
