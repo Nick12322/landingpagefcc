@@ -31,10 +31,13 @@ h1 {
 #flexbox {
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 
 .stepbox {
   background-color: lightgray;
   border-color: white;
-  width: 33%;
+  border-left-width: 5px;
+  width: 25%;
+  border: 10px;
 }

@@ -4,3 +4,8 @@ $("#featureButton").click(function() {
         'slow');
 });
 
+$("#howitworksbutton").click(function() {
+    $('html,body').animate({
+        scrollTop: $(".stepbox").offset().top},
+        'slow');
+});
