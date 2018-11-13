@@ -32,12 +32,31 @@ h1 {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  margin: 0 -4px -4px 0;
+  border: 1px solid;
 }
 
 .stepbox {
-  background-color: lightgray;
-  border-color: white;
-  border-left-width: 5px;
-  width: 25%;
-  border: 10px;
+  background-color: #f8f9fa;
+  border: 10px black;
+  width: 125%;
+  text-align: center;
+}
+
+#stepone {
+  border: 1px solid;
+}
+
+#steptwo {
+  border: 1px solid;
+}
+
+#stepthree {
+  border: 1px solid;
+}
+
+@media only screen and (max-width: 600px) {
+  #form {
+    margin-left: 110px;
+  }
 }
